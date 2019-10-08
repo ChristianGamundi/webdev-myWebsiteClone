@@ -4,18 +4,42 @@ body {
 }
 
 #navbarlist {
-  list-style-type: none;
+  display: inline;
   }
 
-.left {
-    float: right;
-    list-style-type: none;
-    margin-right: 1600px;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 106px;
-    height: 32px;
-    color: black;
-    font-style: bold;
-    font-size: 25px;
-    padding: 7px;
+.postmates {
+  float: right;
+  list-style-type: none;
+  margin-right: 1300px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 106px;
+  height: 32px;
+  color: black;
+  font-style: bold;
+  font-size: 25px;
+  letter-spacing: 0px;
 }
+
+.log {
+  float: right;
+  list-style-type: none;
+  margin-right: 500px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 106px;
+  height: 32px;
+  color: black;
+  font-style: bold;
+  font-size: 25px;
+ }
+
+  .sign {
+  float: right;
+  list-style-type: none;
+  margin-right: 300px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 106px;
+  height: 32px;
+  color: #F5E7D8;
+  font-style: bold;
+  font-size: 15px;
+  }
