@@ -4,30 +4,49 @@
 }
 
 body {
-  width: 1450px;
+  width: 100%;
   }
 
   ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 10px;
     overflow: hidden;
-    background-color: #333;
+    background-color: #F5E7D8;
   }
   
   li {
-    float: left;
+    display: inline;
+    margin: 18px;
+    padding: 10px;
+    text-transform: uppercase;
+    vertical-align: middle;
   }
   
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: whitesmoke;
+  .post {
+    font-size: 25px;
+    color: black;
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0px;
   }
 
+  #hero {
+    height: 100vh;
+    width: 100vw;
+    background-color: #F5E7D8;
+  }
+
+  
+  #h1 {
+    position: relative;
+    left: 0px;
+    text-shadow: 1px 1px #333;
+    color: white;
+    margin: 300px;
+    bottom: 275px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-transform: uppercase;
+    font-style: normal;
+    font-size: 36px;
+  }
