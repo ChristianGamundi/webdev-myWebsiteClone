@@ -7,7 +7,7 @@ body {
   width: 100%;
   }
 
-  ul {
+ nav ul {
     list-style-type: none;
     margin: 0px;
     padding: 10px;
@@ -15,11 +15,10 @@ body {
     background-color: #F5E7D8;
   }
   
-  li {
+  nav ul li {
     display: inline;
     margin: 18px;
     padding: 10px;
-    text-transform: uppercase;
     vertical-align: middle;
   }
   
@@ -29,6 +28,38 @@ body {
     font-style: bold;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 0px;
+    margin-left: 200px;
+  }
+
+  .log {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 100%;
+    border-style:solid;
+    border-width: 2px 2px 2px 2px;
+    padding:9px;
+    padding-bottom:0.125em;
+    cursor:pointer;
+    margin:10px;
+    border-color: grey;
+    font-size: 15px;
+
+  }
+
+  .sign {
+    background-color: black;
+    border-color: black;
+    color: #F5E7D8;
+      position:relative;
+      font-family: Arial, Helvetica, sans-serif;
+      border-radius: 100%;
+    border-style: solid;
+    border-width: 2px 1px 2px 2px;
+    padding:9px;
+    padding-bottom:0.125em;
+    cursor:pointer;
+    margin:10px;
+   font-size: 15px;
+   bottom: 23px;
   }
 
   #hero {
@@ -37,16 +68,43 @@ body {
     background-color: #F5E7D8;
   }
 
-  
-  #h1 {
-    position: relative;
-    left: 0px;
-    text-shadow: 1px 1px #333;
-    color: white;
-    margin: 300px;
-    bottom: 275px;
-    font-family: 'PT Sans Narrow', sans-serif;
-    text-transform: uppercase;
+
+  #heroimg {
+    height: 200px;
+    width: 175px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  #herotext {
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
-    font-size: 36px;
+    font-size: 25px;
+  }
+
+  #searchbar {
+    
+    height: 40px;
+    width: 350px;
+    text-align: center;
+    background-color: white;
+    margin-left: 540px;
+  }
+
+  .enter {
+    font-size: 15px;
+    text-align: center;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .arrow {
+    height: 40px;
+    width: 70px;
+    background-color: rgb(123, 238, 188);
+    margin-left: 400px;
+    bottom: 40px;
   }
