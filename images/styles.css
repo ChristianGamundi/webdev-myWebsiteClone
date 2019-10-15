@@ -1,3 +1,5 @@
+/* ------ Body ------ */
+
 * {
   margin: 0px;
   padding: 0px;
@@ -7,19 +9,23 @@ body {
   width: 100%;
   }
 
- nav ul {
+  /* ------ nav ------ */
+ 
+nav ul {
     list-style-type: none;
     margin: 0px;
     padding: 10px;
     overflow: hidden;
     background-color: #F5E7D8;
+ 
   }
   
   nav ul li {
     display: inline;
-    margin: 18px;
+    margin: 20px;
     padding: 10px;
     vertical-align: middle;
+  
   }
   
   .post {
@@ -28,7 +34,7 @@ body {
     font-style: bold;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 0px;
-    margin-left: 200px;
+    margin-left: 350px;
   }
 
   .log {
@@ -42,6 +48,7 @@ body {
     margin:10px;
     border-color: grey;
     font-size: 15px;
+    
 
   }
 
@@ -59,8 +66,10 @@ body {
     cursor:pointer;
     margin:10px;
    font-size: 15px;
-   bottom: 23px;
+   bottom: 25px;
   }
+
+  /* ------ herosection ------ */
 
   #hero {
     height: 100vh;
@@ -92,12 +101,14 @@ body {
     width: 350px;
     text-align: center;
     background: linear-gradient(to right, white 87%, rgb(89, 180, 124) 0%);
-    margin-left: 540px;
+    margin-right: auto;
+    margin-left: auto;
     border-style: solid;
     border-color: lightslategray;
     border-width: .5px .5px .5px .5px;
   }
 
+  
   #searchbar2 {
     height: 40px;
     width: 350px;
@@ -107,6 +118,8 @@ body {
     border-style: solid;
     border-color: lightslategray;
     border-width: 1px .5px .5px .5px;
+    margin-right: auto;
+    margin-left: auto;
   }
  
   #searchbar3 {
@@ -118,6 +131,6 @@ body {
     border-style: solid;
     border-color: lightslategray;
     border-width: 1px .5px .5px .5px;
+    margin-right: auto;
+    margin-left: auto;
   }
-
-  
