@@ -136,23 +136,25 @@ nav ul {
   }
 
 .table1 {
-height: 270px;
+height: 472px;
 width: 300px;
-margin-left: 150px;
+margin-left: 300px;
+top: 100px
 }
 
 .table2  {
-    height: 270px;
+    height: 472px;
     width: 300px;
-    margin-left: 550px;
+    margin-left: 700px;
+    top: 100px;
     }
 
 /* ------ Discover Section ------ */
 
 
 #discovercontainer {
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 400px;
+  margin-right: 400px;
 }
 
 #discoverimage {
@@ -217,8 +219,8 @@ text-transform: uppercase;
 
 .exploretext {
   border-color: lightslategray;
-  margin-left: 200px;
- margin-right: 200px;
+  margin-left: 400px;
+ margin-right: 400px;
  border-width: 0px 0px .5px 0px;
   border-style: solid;
 }
@@ -226,15 +228,15 @@ text-transform: uppercase;
 #locations {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 400px;
+  margin-right: 400px;
 }
 
 /* ------ Deliver Section ------ */
 
 #deliver {
-  margin-right: 200px;
-  margin-left: 200px;
+  margin-right: 400px;
+  margin-left: 400px;
 }
 
 #delivertext {
@@ -253,7 +255,7 @@ text-transform: uppercase;
 
 .delivertext1 {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 35px;
+  font-size: 38px;
 }
 
 .delivertext2 {
@@ -272,7 +274,7 @@ text-transform: uppercase;
 }
 
 #unlimited {
- margin-left: 200px;
+ margin-left: 400px;
 
  }
 
@@ -312,8 +314,8 @@ font-size: 24px;
 /* ------ Flavor Section ------ */
 
 #flavor {
-  margin-right: 200px;
-  margin-left: 200px;
+  margin-right: 400px;
+  margin-left: 400px;
 }
 
 #flavortext {
@@ -361,8 +363,8 @@ text-transform: uppercase;
 /* Gift Section */
 
 #gift {
-  margin-right: 200px;
-  margin-left: 200px;
+  margin-right: 400px;
+  margin-left: 400px;
 }
 
 #giftimage {
@@ -402,7 +404,7 @@ line-height: 1.5;
   padding:9px;
   padding-bottom:0.125em;
   cursor:pointer;
-  margin-right: 245px;
+  margin-right: 320px;
   font-size: 15px;
   text-transform: uppercase;  
 }
@@ -439,7 +441,7 @@ line-height: 1.5;
 }
 
 .readytext2 {
-  font-family: Arial, Helvetica, sans-serif;
+font-family: Arial, Helvetica, sans-serif;
 font-size: 15px;
 line-height: 25px;
 }
@@ -454,14 +456,14 @@ line-height: 25px;
 }
 
 #footertext {
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 400px;
+  margin-right: 400px;
   text-transform: uppercase;
 }
 
 #footertext2 {
-  margin-left: 383px;
-  margin-right: 200px;
+  margin-left: 583px;
+  margin-right: 400px;
   color: gray;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
@@ -469,15 +471,15 @@ line-height: 25px;
 
 #footerbreak {
   border-color: gray;
-  margin-left: 200px;
- margin-right: 200px;
+  margin-left: 400px;
+ margin-right: 400px;
  border-width: 0px 0px .5px 0px;
   border-style: solid;
 }
 
 #footerend {
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 400px;
+  margin-right: 400px;
 }
 
 .footertext3 {
